@@ -33,8 +33,8 @@ int main(){
     track_table = new char* [a.length()];
     for (i = 0; i < a.length(); i++){
         track_table[i] = new char[b.length()];
-    } 
-
+    }
+    
     for(i = 0; i < a.length() + 1; i++){
         lcs_table[i][0] =0;
     }
