@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 void trace(string a, char** track_table,int i, int j){
     if(i == -1 || j == -1){
         return;
